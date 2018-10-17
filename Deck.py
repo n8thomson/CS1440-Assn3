@@ -20,7 +20,7 @@ class Deck():
         n -= 1
         if 0 <= n < self.getCardCount():
             card = self.__m_cards[n]
-        return card;
+        return card
 
 
     def print(self, file=sys.stdout, idx=None):

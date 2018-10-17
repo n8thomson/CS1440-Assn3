@@ -8,4 +8,4 @@ class MenuOption():
 
     def getDescription(self):
         return self.__m_description
-        
+

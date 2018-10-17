@@ -34,9 +34,9 @@ class UserInterface():
     def __deckMenu(self):
         """Present the deck menu to user until a valid selection is chosen"""
         menu = Menu.Menu("Deck")
-        menu.addOption("P", "Print a card to the screen");
-        menu.addOption("D", "Display the whole deck to the screen");
-        menu.addOption("S", "Save the whole deck to a file");
+        menu.addOption("P", "Print a card to the screen")
+        menu.addOption("D", "Display the whole deck to the screen")
+        menu.addOption("S", "Save the whole deck to a file")
 
         keepGoing = True
         while keepGoing:
