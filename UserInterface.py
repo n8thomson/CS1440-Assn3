@@ -44,7 +44,7 @@ class UserInterface():
         #Get the max number
         keepGoing = True
         while (keepGoing):
-            maxVal = int(input("Input max number between " + str(2 * (size ** 2)) + " and " + str(4 * (size ** 2)) + ": "))
+            maxVal = int(input("Input max number (between " + str(2 * (size ** 2)) + " and " + str(4 * (size ** 2)) + "): "))
             if (maxVal >= (2 * (size ** 2)) and maxVal <= (4 * (size ** 2))):
                 keepGoing = False
             else:

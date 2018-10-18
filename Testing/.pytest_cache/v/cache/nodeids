@@ -1,0 +1,5 @@
+[
+  "TestNumberSet.py::TestNumberSet::test_get",
+  "TestNumberSet.py::TestNumberSet::test_getNext",
+  "TestNumberSet.py::TestNumberSet::test_getSize"
+]

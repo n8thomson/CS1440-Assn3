@@ -1,0 +1,4 @@
+{
+  "TestNumberSet.py::TestNumberSet::test_get": true,
+  "TestNumberSet.py::TestNumberSet::test_getNext": true
+}

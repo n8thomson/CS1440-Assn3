@@ -5,8 +5,11 @@ class NumberSet():
         """NumberSet constructor"""
         self.__m_size = size
         self.__m_numberList = []
-        for i in range(1, size + 1):
-            self.__m_numberList.append(i)
+        if size == 0:
+            self.__m_numberList.append(None)
+        else:
+            for i in range(1, size + 1):
+                self.__m_numberList.append(i)
         self.__m_counter = 0
 
         pass
